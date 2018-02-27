@@ -1,0 +1,196 @@
+   /* ADJUSTMENT font-family: "Roboto", sans-serif; font-family: "Damion", cursive; */
+
+   .nav-2 {
+     display: none;
+   }
+   .cover-2 {
+
+     display: none;
+   }
+
+   /* NAVIGATION */
+    .nav-1 {
+      height: 85px;
+      font-family: "Roboto", sans-serif;
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 1fr repeat(1,100px) 70px  70px 50px;
+      align-items: center;
+
+    }
+    .nav-1 a {
+        text-decoration: none;
+        font-family: "Roboto", regular;
+        color: #4A4A4A;
+        font-size: 1.1em;
+        padding-left:
+    }
+    #gtn-1 {
+      padding-left: 20px;
+    }
+
+    /* MAIN COVER */
+
+    .cover-main {
+      background-image: url('../img/banner-landingpage.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 110vh;
+
+
+    }
+    .cover-1 {
+      background-color: #9DC20A;
+      border: 1px solid #979797;
+      border-radius: 4px;
+      height: 22em;
+      width: 37em;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      top: 170px;
+      left: 100px;
+
+    }
+    #hed-1 {
+      font-size: 2.1em;
+      font-family: "Damion", cursive;
+      font-weight: lighter;
+    }
+    #hed-2 {
+      font-size: 3.1em;
+      font-face: Rubik-Regular;
+      line-height: 1.4em;
+      font-family: 'Roboto';
+      text-transform: uppercase;
+    }
+    #hed-3 {
+      font-size: 1.3em;
+      line-height: 1.3em;
+    }
+    #hed-3 strong {
+      font-weight: bold;
+    }
+    .btn-2 {
+      width: 408px;
+      height: 64px;
+      background-color: #4A4A4A;
+      border-radius: 4px;
+      color: #fff;
+      font-size: 20px;
+      line-height: 3em;
+    }
+
+      /* MAIN CONTAINER */
+      .ctn-1 {
+        height: 40rem;
+        display:grid;
+        grid-template-areas:
+        'box-1  box-2';
+        grid-template-columns:1fr 1fr;
+        text-align: center;
+        background-color:#9B9B9B;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 30px;
+        padding-left: 10em;
+        padding-right: 10rem;
+
+      }
+      .ctn-1 img {
+        width: 85%;
+        position: relative;
+        bottom: 3em;
+      }
+      .b {
+        padding-top: 10px;
+        background-color: #fff;
+        border: 1px solid #979797;
+        border-radius: 4px;
+        height: 30em;
+        width: 30em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      #ctn-head {
+        color: #4A4A4A;
+        font-size: 33px;
+        line-height: 1em;
+        font-weight: bold;
+      }
+      .ctn-1 figcaption {
+        color:#4A4A4A;
+        font-size: 14px;
+      }
+        .mbl-1 {
+          display: none;
+        }
+      /* BOTTOM IMAGES */
+      .ctn-2 {
+        background-color: #444;
+        color: #fff;
+        font-size: 16px;
+        line-height: 1.4em;
+        height: 36em;
+
+
+      }
+      .ctn-sub {
+        height: 12em;
+        line-height: 1.5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .img-btn {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+      }
+      .img-btn img{
+        width: 17em;
+      }
+      #stn-head {
+        opacity: 100%;
+        font-size: 36px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        line-height: 1em;
+      }
+
+      /* PHOTO CITY */
+
+      .ctn-3 {
+        height: 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #stn-3 {
+        color: #4A4A4A;
+        font-size: 25px;
+        font-family: 1.1em;
+        padding-right: 30px;
+        font-style: italic;
+      }
+      /* FOOTER */
+
+      .footer {
+        height:80px;
+        background-color: #9B9B9B;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        color: #fff;
+      }

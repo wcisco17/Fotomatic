@@ -1,0 +1,276 @@
+/* RESET CSS */
+
+  /* http://meyerweb.com/eric/tools/css/reset/
+ v2.0 | 20110126
+ License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+        /* MEDIA RESET */
+        @media only screen and (max-width: 1024px) {
+
+          /* COVER PAGE */
+          .cover-main{
+            display: none;
+          }
+          .cover-main-1 {
+            background-image: url('../img/banner-landingpage.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+
+          }
+          .cover-main-1,.cover-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+          }
+          #heds-1 {
+            font-size: 2.1em;
+            font-family: "Damion", cursive;
+            font-weight: lighter;
+            font-style: italic;
+          }
+          #heds-2 {
+            font-size: 3.1em;
+            font-face: Rubik-Regular;
+            line-height: 2em;
+            font-family: 'Roboto';
+            text-transform: uppercase;
+          }
+          /* TWO BOXES */
+          .ctn-1 img {
+            width: 65%;
+            position: relative;
+            bottom: 3em;
+          }
+          .b {
+            padding-top: 12px;
+            background-color: #fff;
+            border: 1px solid #979797;
+            border-radius: 6px;
+            height: 31em;
+            width: 24em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+          }
+
+          .box-2 img {
+
+          }
+          .ctn-2 {
+            height: 25.5em;
+          }
+          #img-d {
+            display: none;
+          }
+          .img-btn {
+            grid-template-columns:repeat(auto-fit,minmax(100px, 1fr));
+            grid-gap: 10px;
+            padding: 10;
+          }
+          .img-btn img {
+            width: 14em;
+          }
+        }
+        @media only screen and (max-width: 740px) {
+          /* NAVIGATION */
+          .nav-1 {
+            display: none;
+          }
+          .nav-2 {
+            display: block;
+            height: 85px;
+            font-family: "Roboto", sans-serif;
+            display: grid;
+            grid-template-columns:repeat(auto-fit,minmax(70px,1fr));
+            align-items: center;
+            padding-left: 20px;
+          }
+          .btn-1 {
+            background-color: #9DC20A;
+            border-radius: 6px;
+            color: #fff;
+            height: 30px;
+            width: 70px;
+          }
+          /* CONTAINER */
+          .ctn-1 {
+            display: none;
+          }
+          .mbl-1 {
+            display: grid;
+            grid-template-areas:
+            'bx-1'
+            'bx-2';
+            text-align: center;
+            grid-gap: 30px;
+            line-height: 4.3em;
+          }
+          .mbl-1 figcaption {
+            margin: 0px 100px;
+            text-align: center;
+          }
+          .mbl-1, #ctn-head {
+            color: #111;
+          }
+          .mbl-1 img {
+            width: 30rem;
+            line-height: 2em;
+          }
+          .bx-1 {
+            grid-area: bx-1;
+            background-color: #999999;
+            padding-top: 20px
+
+          }
+          .bx-2 {
+            padding-top: 10px;
+            grid-area: bx-2;
+            background-color: #fff;
+
+
+          }
+          .img-btn {
+            grid-template-columns:repeat(auto-fit,minmax(60px, 1fr));
+            grid-gap: 10px;
+            padding: 10;
+          }
+          .img-btn img {
+            width: 12em;
+        }
+        @media only screen and (max-width: 550px) {
+
+          .ctn-sub {
+            height: 17.5em;
+          }
+          .img-btn {
+            grid-template-columns:repeat(auto-fit,minmax(80px, 1fr));
+            grid-gap: 30px;
+            padding: 0;
+
+          }
+          .img-btn img {
+            width: 8em;
+        }
+}
+          @media only screen and (max-width: 440px) {
+            /* COVER OF WEB */
+            .cover-main-1 {
+              background-image: url('../img/banner-landingpage.jpg');
+              background-position: right;
+              height: 50vh;
+
+            }
+            #heds-2 {
+              font-size: 2em;
+            }
+
+            .mbl-1 {
+              line-height: normal;
+
+            }
+            .mbl-1 img {
+              width: 20em;
+
+            }
+            .mbl-1 figcaption {
+              margin: 0px 40px;
+              text-align: center;
+              line-height: 1.1em;
+            }
+
+            /* IMAGES SUB */
+            #stn-head {
+              font-size: 18px;
+              line-height: 1.5em;
+            }
+            #stn-1 {
+              font-size: 12px;
+              line-height: none;
+            }
+            .ctn-sub {
+              height: 8em;
+            }
+            .ctn-2 {
+              height: 14.9em;
+            }
+            .img-btn {
+              grid-template-columns:repeat(auto-fit,minmax(80px, 1fr));
+              grid-gap: 0px;
+              padding: 0px;
+
+            }
+            .img-btn img {
+              width: 7em;
+          }
+            /* SOCIEY */
+            .ctn-3 {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              padding:3px;
+              height: 13em;
+              text-align: center;
+              line-height: 2.5em;
+
+            }
+
+            /* FOOTER */
+            .footer {
+              font-size: 0.76em;
+              padding: 5px;
+              height: 4em;
+            }
+
+          }
